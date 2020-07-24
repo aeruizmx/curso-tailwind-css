@@ -1,3 +1,5 @@
+/* Directuva es una instruccion que utiliza tailwind para insertar código en el archivo final de css que se genera. */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -590,6 +592,8 @@ video {
   height: auto;
 }
 
+/* Base Inicializa todos los elementos para que no tengan estilo*/
+
 .container {
   width: 100%;
 }
@@ -617,6 +621,8 @@ video {
     max-width: 1280px;
   }
 }
+
+/* Components inyecta las clases de componentes de tailwind y cualquier clase de componente registrado por los plugins*/
 
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
@@ -17876,6 +17882,8 @@ video {
 .delay-1000 {
   transition-delay: 1000ms;
 }
+
+/* Utilities genera el código de las utilerias*/
 
 @media (min-width: 640px) {
   .sm\:container {
