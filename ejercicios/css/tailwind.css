@@ -2,6 +2,7 @@
 @tailwind base;
 /* Base Inicializa todos los elementos para que no tengan estilo*/
 @tailwind components;
+
 /* Components inyecta las clases de componentes de tailwind y cualquier clase de componente registrado por los plugins*/
 @tailwind utilities;
 /* Utilities genera el código de las utilerias*/
@@ -21,4 +22,24 @@
   .zoom{
     transform: scale(2);
   }
+}
+.alert{
+  @apply p-5; 
+  @apply mt-5;
+  @apply mx-auto;
+  @apply w-full;
+  @apply border-solid;
+}
+.alert-default{
+  @apply bg-gray-500;
+
+}
+.alert-danger{
+  @apply bg-red-500;
+}
+.alert-warning{
+  @apply bg-yellow-500;
+}
+.alert-info{
+  @apply bg-blue-500;
 }

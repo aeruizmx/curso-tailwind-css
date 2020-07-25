@@ -18089,6 +18089,39 @@ video {
   transform: scale(2);
 }
 
+.alert{
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-style: solid;
+}
+
+.alert-default{
+  --bg-opacity: 1;
+  background-color: #a0aec0;
+  background-color: rgba(160, 174, 192, var(--bg-opacity));
+}
+
+.alert-danger{
+  --bg-opacity: 1;
+  background-color: #f56565;
+  background-color: rgba(245, 101, 101, var(--bg-opacity));
+}
+
+.alert-warning{
+  --bg-opacity: 1;
+  background-color: #ecc94b;
+  background-color: rgba(236, 201, 75, var(--bg-opacity));
+}
+
+.alert-info{
+  --bg-opacity: 1;
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
