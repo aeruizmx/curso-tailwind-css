@@ -18029,6 +18029,26 @@ video {
 
 /* Utilities genera el código de las utilerias*/
 
+.rotate-30{
+  transform: rotate(30deg);
+}
+
+.zoom-1-5{
+  transform: scale(1.5);
+}
+
+.rotate-45{
+  transform: rotate(45deg);
+}
+
+.zoom{
+  transform: scale(2);
+}
+
+.hover\:zoom:hover{
+  transform: scale(2);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -35459,6 +35479,10 @@ video {
 
   .sm\:delay-1000 {
     transition-delay: 1000ms !important;
+  }
+
+  .sm\:rotate-45{
+    transform: rotate(45deg);
   }
 }
 
@@ -52893,6 +52917,10 @@ video {
   .md\:delay-1000 {
     transition-delay: 1000ms !important;
   }
+
+  .md\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -70326,6 +70354,10 @@ video {
   .lg\:delay-1000 {
     transition-delay: 1000ms !important;
   }
+
+  .lg\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -87758,5 +87790,9 @@ video {
 
   .xl\:delay-1000 {
     transition-delay: 1000ms !important;
+  }
+
+  .xl\:rotate-45{
+    transform: rotate(45deg);
   }
 }

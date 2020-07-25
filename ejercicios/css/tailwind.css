@@ -5,3 +5,21 @@
 /* Components inyecta las clases de componentes de tailwind y cualquier clase de componente registrado por los plugins*/
 @tailwind utilities;
 /* Utilities genera el código de las utilerias*/
+
+.rotate-30{
+  transform: rotate(30deg);
+}
+.zoom-1-5{
+  transform: scale(1.5);
+}
+@responsive{
+  .rotate-45{
+    transform: rotate(45deg);
+  }
+}
+
+@variants hover{
+  .zoom{
+    transform: scale(2);
+  }
+}
