@@ -13,7 +13,7 @@
   @apply outline-none shadow-outline;
 }
 .btn{
-  @apply mx-auto block bg-gray-500 px-4 py-1 rounded shadow-xl;
+  @apply  block bg-gray-500 px-4 py-1 rounded shadow-xl;
 }
 .btn-primary{
   @apply bg-yellow-600;
