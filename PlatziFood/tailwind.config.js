@@ -1,7 +1,17 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'primary':'#f3c614',
+        'secondary':'#353535',
+        'primary':'#f3c614',
+        'primary':'#f3c614',
+        'primary':'#f3c614',
+        'primary':'#f3c614',
+        
+      }
+    },
   },
   variants: {},
   plugins: [],
