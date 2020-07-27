@@ -654,8 +654,6 @@ video {
 }
 
 .btn{
-  margin-left: auto;
-  margin-right: auto;
   display: block;
   --bg-opacity: 1;
   background-color: #a0aec0;

@@ -10,14 +10,42 @@
 </head>
 
 <body>
-  <div class="bg-secondary text-white flex justify-between items-center px-2">
-    <div>
-      <img class="h-8 py-1" src="images/logo-w.svg" alt="Logo">
+  <nav class="bg-secondary text-gray-100">
+    <div class="bg-secondary text-white flex justify-between items-center px-2">
+      <div>
+        <img class="h-8 py-1" src="images/logo-w.svg" alt="Logo">
+      </div>
+      <div class="text-2xl">&equiv;</div>
     </div>
-    <div class="text-2xl">&equiv;</div>
-  </div>
+    <div class="mx-2 my-1">
+      <input class="form-control placeholder-secondary" type="search" placeholder="Buscar...">
+    </div>
+    <div class="py-1 mx-2 md:flex justify-around">
+      <div class="flex ">
+        Precio:
+        <div class="ml-2">$</div>
+        <div class="ml-2">$$</div>
+        <div class="ml-2 text-primary">$$$</div>
+        <div class="ml-2">$$$$</div>
+      </div>
+      <div class="flex">
+        Calificación:
+        <div class="ml-2 text-primary">&starf;</div>
+        <div class="ml-px text-primary">&starf;</div>
+        <div class="ml-px text-primary">&starf;</div>
+        <div class="ml-px text-primary">&starf;</div>
+        <div class="ml-px text-primary">&star;</div>
+      </div>
+      <div>
+        <button class="btn btn-primary">Filtrar</button>
+      </div>
+    </div>
+  </nav>
+
   <main class="mb-8">
-    <div class="h-56 bg-no-repeat bg-cover bg-bottom md:h-100 md:bg-center" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');"></div>
+    <div class="h-56 bg-no-repeat bg-cover bg-bottom md:h-100 md:bg-center"
+      style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');">
+    </div>
     <div class="container mx-auto md:flex">
       <div class="mx-2 md:mx-0 mt-4 md:w-1/2 md:flex md:bg-white">
         <div>
@@ -25,7 +53,8 @@
             src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80"
             alt="Tacos">
         </div>
-        <div class="relative mx-2 p-2 shadow-lg md:shadow-none bg-white md:bg-transparent md:flex md:flex-col md:justify-center rounded-lg -mt-2">
+        <div
+          class="relative mx-2 p-2 shadow-lg md:shadow-none bg-white md:bg-transparent md:flex md:flex-col md:justify-center rounded-lg -mt-2">
           <h2 class="text-2xl uppercase tracking-tight font-semibold text-gray-900 md:text-lg">Tacos de Bistec</h2>
           <p class="text-gray-700 leading-snug">Taquitos de bistec con cebolla y cilantro </p>
           <div class="text-sm font-semibold text-gray-700 mt-2">MXN $15</div>
@@ -38,7 +67,8 @@
             src="https://images.unsplash.com/photo-1579630941903-4ff514d6fa1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
             alt="Tacos">
         </div>
-        <div class="relative mx-2 p-2 shadow-lg md:shadow-none bg-white md:bg-transparent md:flex md:flex-col md:justify-center rounded-lg -mt-2">
+        <div
+          class="relative mx-2 p-2 shadow-lg md:shadow-none bg-white md:bg-transparent md:flex md:flex-col md:justify-center rounded-lg -mt-2">
           <h2 class="text-2xl uppercase tracking-tight font-semibold text-gray-900 md:text-lg">Tacos de Pastor</h2>
           <p class="text-gray-700 leading-snug">Taquitos de pastor con piña </p>
           <div class="text-sm font-semibold text-gray-700 mt-2">MXN $15</div>
@@ -60,7 +90,7 @@
         <textarea class="form-control placeholder-secondary" name="" id="" cols="30" rows="10"></textarea>
       </div>
       <div>
-        <button class="btn btn-primary">Enviar</button>
+        <button class="btn btn-primary mx-auto">Enviar</button>
       </div>
     </div>
   </main>
