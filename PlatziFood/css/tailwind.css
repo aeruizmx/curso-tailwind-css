@@ -1,0 +1,8 @@
+/* Directuva es una instruccion que utiliza tailwind para insertar código en el archivo final de css que se genera. */
+@tailwind base;
+/* Base Inicializa todos los elementos para que no tengan estilo*/
+@tailwind components;
+
+/* Components inyecta las clases de componentes de tailwind y cualquier clase de componente registrado por los plugins*/
+@tailwind utilities;
+/* Utilities genera el código de las utilerias*/
