@@ -622,6 +622,68 @@ video {
   }
 }
 
+.form-control{
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #90cdf4;
+  border-color: rgba(144, 205, 244, var(--border-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
+  line-height: 1.375;
+}
+
+.form-control:hover{
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.form-control-focus{
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  --bg-opacity: 1;
+  background-color: #a0aec0;
+  background-color: rgba(160, 174, 192, var(--bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.btn-primary{
+  --bg-opacity: 1;
+  background-color: #d69e2e;
+  background-color: rgba(214, 158, 46, var(--bg-opacity));
+}
+
+.btn:hover{
+  box-shadow: none;
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
 /* Components inyecta las clases de componentes de tailwind y cualquier clase de componente registrado por los plugins*/
 
 .space-y-0 > :not(template) ~ :not(template) {
@@ -18109,29 +18171,17 @@ video {
 
 /* Utilities genera el código de las utilerias*/
 
-h1{
-  font-size: 1.875rem;
-  --text-opacity: 1;
-  color: #2f855a;
-  color: rgba(47, 133, 90, var(--text-opacity));
-  font-weight: 600;
+/* h1{
+  @apply text-3xl text-green-700 font-semibold;
 }
 
 h2{
-  font-size: 1.5rem;
-  --text-opacity: 1;
-  color: #b7791f;
-  color: rgba(183, 121, 31, var(--text-opacity));
-  font-weight: 600;
+  @apply text-2xl text-yellow-700 font-semibold;
 }
 
 h3{
-  font-size: 1.25rem;
-  --text-opacity: 1;
-  color: #c53030;
-  color: rgba(197, 48, 48, var(--text-opacity));
-  font-weight: 600;
-}
+  @apply text-xl text-red-700 font-semibold;
+} */
 
 @media (min-width: 640px) {
   .sm\:container {
