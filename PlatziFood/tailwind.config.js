@@ -10,6 +10,10 @@ module.exports = {
         'primary':'#f3c614',
         'primary':'#f3c614',
         
+      },
+      height:{
+        '80':'20rem',
+        '100':'25rem'
       }
     },
   },
